@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify Clone</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>music player</h1>
+        </header>
+        <div class="music-player">
+            <img id="album-cover" src="music.webp" alt="Album Cover">
+            <audio id="audio" controls>
+                <source id="audio-source" src="music.webp" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+            <div class="track-list">
+                <button onclick="playTrack('track1.mp3', 'album-cover.jpg')">Track 1</button>
+                <button onclick="playTrack('track2.mp3', 'album-cover2.jpg')">Track 2</button>
+                <button onclick="playTrack('track3.mp3', 'album-cover3.jpg')">Track 3</button>
+         </div>
+        
+
+    <div class="music-player">
+        <img id="album-cover" src="music 2.webp" alt="Album Cover">
+        <audio id="audio" controls>
+            <source id="audio-source" src="" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        <div class="track-list">
+            <button onclick="playTrack('track1.mp3', 'album-cover.jpg')">Track 1</button>
+            <button onclick="playTrack('track2.mp3', 'album-cover2.jpg')">Track 2</button>
+            <button onclick="playTrack('track3.mp3', 'album-cover3.jpg')">Track 3</button>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
